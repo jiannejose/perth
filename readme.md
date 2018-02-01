@@ -10,6 +10,6 @@ I also used BEM (Block Element Modifier) to add maintainability and reusability 
 
 ## Source
 
-This is a free flat web design from [Blaz Robar] (http://blazrobar.com/free-psd-website-templates/freebie-psd-perth-free-flat-web-design/). 
+This is a free flat web design from [Blaz Robar](http://blazrobar.com/free-psd-website-templates/freebie-psd-perth-free-flat-web-design/). 
 
 Thank you, Blaz Robar! ^____^
