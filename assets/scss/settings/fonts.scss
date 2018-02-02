@@ -1,0 +1,42 @@
+$font-primary: 'Open Sans', sans-serif;
+
+$font-secondary: 'Satisfy', cursive;
+
+// Sizes (regular: 16px)
+$font-xxs: 0.75rem; //12px - footer
+$font-xs: 0.875rem; //14px - enter email
+$font-small: 0.9375rem; //15px - buttons
+$font-regular: 1rem; //16px - paragraphs
+$font-medium: 1.125rem; //18px - nav menu
+$font-large: 1.25rem; //20px - subtitle
+$font-xl: 1.75rem; //28px - section title
+$font-xxl: 1.875rem; //30px -subtitle
+$font-xxxl: 2.5rem; //40px - section title
+$font-huge: 3rem; //48px - hero title
+$font-xh: 4.375rem; //70px - hero title
+
+
+// Typeset
+
+$fonts : (
+  
+  h1: (
+    default: (
+      font-size: $font-huge,
+      font-weight: 900,
+    ),
+    medium: (
+      font-size: $font-xh,
+    )
+  ),
+
+  h2: (
+    default: (
+      font-size: $font-xl,
+    ),
+    medium: (
+      font-size: $font-xxxl,
+    )
+  ),
+
+);

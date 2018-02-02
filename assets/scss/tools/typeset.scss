@@ -1,0 +1,27 @@
+@mixin font-breakpoint($breakpoint) {
+    @if $breakpoint == "default" {
+        @content;
+    }
+
+    @else if $breakpoint != "default" {
+        @include breakpoint($breakpoint) {
+            @content;
+        }
+    }
+}
+
+@mixin type-set($type) {
+    $sizes-map: map-get($fonts, $type);
+    $sizes: map-keys($sizes-map);
+
+    @each $size in $sizes {
+        $css: map-get($sizes-map, $size);
+        $css-keys: map-keys($css);
+
+        @each $css-key in $css-keys {
+            @include font-breakpoint($size) {
+                #{$css-key}: map-get($css, $css-key);
+            }
+        }
+    }
+  }
