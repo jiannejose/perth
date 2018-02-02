@@ -1,0 +1,36 @@
+.o-btn {
+  color: $white-900;
+  font-size: $font-small;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  display: inline-flex;
+  padding: 18px 25px 18px 20px;
+  border: 2px solid $white-900;
+
+  span {
+    display: block;
+    font-weight: 900;
+    font-style: italic;
+    padding-left: 5px;
+  }
+}
+
+.o-btn-icon {
+  margin-left: 14px;
+  line-height: 1.1rem;
+}
+
+.o-btn--green {
+  color: $green-500;
+
+  padding-left: 27px;
+  padding-right: 30px;
+  border: 2px solid $green-500;
+}
+
+.o-btn--pink {
+  color: $pink-500;
+
+  border: 2px solid $pink-500;
+}
