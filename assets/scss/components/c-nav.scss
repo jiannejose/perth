@@ -97,6 +97,20 @@
   }
 }
 
+.c-nav-icon {
+  color: $blue-500;
+  background-color: $white-900;
+  padding: 12px 14px;
+  margin: 0 20px;
+  border-radius: 100%;
+  display: inline-block;
+  transition: all 300ms ease-out;
+
+  i {
+    font-size: $font-small;
+  }
+}
+
 .c-nav-label { 
   position: relative;
 }
@@ -115,7 +129,7 @@
 .c-nav__menu-links a:hover {
   cursor: pointer;
 
-  .o-nav-icon {
+  .c-nav-icon {
     color: $white-900;
     background-color: $blue-500;
   }
