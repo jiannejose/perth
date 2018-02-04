@@ -408,6 +408,11 @@ h1 {
   h1 {
     font-size: 4.375rem; } }
 
+footer {
+  height: 100vh;
+  min-height: 600px;
+  overflow: hidden; }
+
 .o-container {
   width: 100%;
   position: relative; }
@@ -668,6 +673,80 @@ BREAKPOINT
 
 .c-support__title {
   color: #ffffff; }
+
+.c-footer__main {
+  height: 75vh;
+  background-color: #f4f4f4;
+  position: relative; }
+
+.c-footer__items {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%; }
+
+.c-footer__social {
+  margin: 0 auto 50px; }
+
+.c-footer__social ul {
+  list-style: none;
+  display: flex;
+  padding: 0; }
+
+.c-footer__social li {
+  margin: 0 10px; }
+
+.c-footer__social a {
+  display: inline-block;
+  color: #545454;
+  padding: 10px 12px;
+  border: 3px solid #545454;
+  border-radius: 100%; }
+
+.c-footer__social i {
+  width: 16px;
+  height: 16px;
+  text-align: center; }
+
+.c-footer__subs {
+  text-align: center; }
+
+.c-footer__subs-title {
+  padding: 20px 0; }
+
+.c-footer__subs-email {
+  padding: 20px 0; }
+
+.c-footer__subs-email button {
+  border: none; }
+
+/* end footer main */
+.c-footer__bottom {
+  position: relative; }
+
+.c-footer__copyright {
+  width: 55%;
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 1.5rem;
+  margin: 40px auto; }
+
+.c-footer__copyright span {
+  color: #4eacdd; }
+
+.c-footer__topbtn {
+  display: inline-block;
+  position: absolute; }
+
+.c-footer__topbtn a {
+  background-color: #f4f4f4;
+  color: #545454;
+  padding: 18px 15px 8px 15px;
+  border-radius: 8px; }
+
+.c-footer__topbtn i {
+  font-size: 1.25rem;
+  font-weight: 900; }
 
 .u-mt-30 {
   margin-top: 30px; }

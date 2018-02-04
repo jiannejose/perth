@@ -13,3 +13,5 @@ I also used BEM (Block Element Modifier) to add maintainability and reusability 
 This is a free flat web design from [Blaz Robar](http://blazrobar.com/free-psd-website-templates/freebie-psd-perth-free-flat-web-design/). 
 
 Thank you, Blaz Robar! ^____^
+
+P.S. One of the fonts used on the design isn't free; hence, I just used Open Sans. :)
