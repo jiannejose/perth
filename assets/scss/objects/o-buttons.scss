@@ -7,6 +7,7 @@
   display: inline-flex;
   padding: 18px 25px 18px 20px;
   border: 2px solid $white-900;
+  transition: all 400ms ease-out;
 
   span {
     display: block;
@@ -21,16 +22,29 @@
   line-height: 1.1rem;
 }
 
+.o-btn:hover {
+  color: $blue-500;
+  background-color: $white-900;
+}
+
 .o-btn--green {
   color: $green-500;
-
   padding-left: 27px;
   padding-right: 30px;
   border: 2px solid $green-500;
 }
 
+.o-btn--green:hover {
+  color: $white-900;
+  background-color: $green-500;
+}
+
 .o-btn--pink {
   color: $pink-500;
-
   border: 2px solid $pink-500;
+}
+
+.o-btn--pink:hover {
+  color: $white-900;
+  background-color: $pink-500;
 }
