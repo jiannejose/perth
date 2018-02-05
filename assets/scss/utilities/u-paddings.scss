@@ -1,8 +1,14 @@
 .u-pt-30 { padding-top: 30px; }
+.u-pt-50 { padding-top: 50px; }
 .u-pt-100 { padding-top: 100px; }
 
 .u-pb-30 { padding-bottom: 30px; }
+.u-pb-50 { padding-bottom: 50px; }
 .u-pb-100 { padding-bottom: 100px; }
+
+.u-pl-20 { padding-left: 20px; }
+
+.u-pr-20 { padding-right: 20px; }
 
 
 @include breakpoint(large) {

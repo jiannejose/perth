@@ -1,17 +1,13 @@
-.o-p__container {
-  padding: 0 20px 30px;
-}
-
 .o-p__container--bar {
   border-left: 5px solid $blue-500;
-  padding: 0 0 0 15px;
-  margin: 0 30px 30px 20px;
+  padding-left: 15px;
+  margin-left: 20px;
 }
 
 .o-p--regular {
   color: $gray-900;
   letter-spacing: 0.02rem;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
   opacity: 0.8;
 }
 

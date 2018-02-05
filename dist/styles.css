@@ -472,18 +472,15 @@ footer {
   .o-section-title {
     font-size: 2.5rem; } }
 
-.o-p__container {
-  padding: 0 20px 30px; }
-
 .o-p__container--bar {
   border-left: 5px solid #4eacdd;
-  padding: 0 0 0 15px;
-  margin: 0 30px 30px 20px; }
+  padding-left: 15px;
+  margin-left: 20px; }
 
 .o-p--regular {
   color: #545454;
   letter-spacing: 0.02rem;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
   opacity: 0.8; }
 
 .o-p--italic-bar {
@@ -665,13 +662,22 @@ BREAKPOINT
   .c-hero__subtitle span {
     font-size: 1.9rem; } }
 
+.c-section__title h2 {
+  color: #545454; }
+
+.c-section__image {
+  margin: 20px 20px 0 10px; }
+
+.c-section__image img {
+  width: 100%; }
+
 .c-support__container {
   width: 100%;
   height: auto;
   text-align: center;
   background-color: #14af8f; }
 
-.c-support__title {
+.c-support__title h2 {
   color: #ffffff; }
 
 /*** start footer main ***/
@@ -860,14 +866,26 @@ BREAKPOINT
 .u-pt-30 {
   padding-top: 30px; }
 
+.u-pt-50 {
+  padding-top: 50px; }
+
 .u-pt-100 {
   padding-top: 100px; }
 
 .u-pb-30 {
   padding-bottom: 30px; }
 
+.u-pb-50 {
+  padding-bottom: 50px; }
+
 .u-pb-100 {
   padding-bottom: 100px; }
+
+.u-pl-20 {
+  padding-left: 20px; }
+
+.u-pr-20 {
+  padding-right: 20px; }
 
 @media all and (min-width: 1024px) {
   .u-pt-40\@t {
@@ -875,5 +893,14 @@ BREAKPOINT
 
 .u-flex {
   display: flex; }
+
+.u-bg-blue500 {
+  background-color: #4eacdd; }
+
+.u-bg-white500 {
+  background-color: #f4f4f4; }
+
+.u-bg-green500 {
+  background-color: #14af8f; }
 
 /*# sourceMappingURL=maps/styles.css.map */
