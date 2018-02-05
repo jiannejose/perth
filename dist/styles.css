@@ -442,7 +442,8 @@ footer {
 
 .o-btn:hover {
   color: #4eacdd;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  cursor: pointer; }
 
 .o-btn--green {
   color: #14af8f;
@@ -452,7 +453,8 @@ footer {
 
 .o-btn--green:hover {
   color: #ffffff;
-  background-color: #14af8f; }
+  background-color: #14af8f;
+  cursor: pointer; }
 
 .o-btn--pink {
   color: #ee6ea0;
@@ -460,7 +462,11 @@ footer {
 
 .o-btn--pink:hover {
   color: #ffffff;
-  background-color: #ee6ea0; }
+  background-color: #ee6ea0;
+  cursor: pointer; }
+
+.o-btn--beer:hover {
+  color: #14af8f; }
 
 .o-section-title {
   font-size: 1.75rem;
@@ -489,6 +495,11 @@ footer {
 .o-p--bolditalic {
   font-style: italic;
   font-weight: 900; }
+
+nav {
+  width: 100%;
+  position: fixed;
+  z-index: 1; }
 
 /*** LOGO ***/
 .c-nav__logo {
@@ -548,7 +559,15 @@ footer {
   height: 100vh;
   position: relative;
   background-color: rgba(243, 120, 122, 0.9);
-  z-index: 1; }
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 500ms ease-out; }
+
+.c-nav__main--close .c-nav__menu {
+  display: none; }
+
+.c-nav__main--open .c-nav__menu {
+  opacity: 1; }
 
 .c-nav__menu-links {
   position: absolute;
@@ -799,6 +818,7 @@ BREAKPOINT
 
 .c-footer__subs-input {
   color: #4eacdd;
+  font-size: 0.875rem;
   width: 70%;
   background-color: transparent;
   border: none;

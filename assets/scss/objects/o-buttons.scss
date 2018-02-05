@@ -25,6 +25,7 @@
 .o-btn:hover {
   color: $blue-500;
   background-color: $white-900;
+  cursor: pointer;
 }
 
 .o-btn--green {
@@ -37,6 +38,7 @@
 .o-btn--green:hover {
   color: $white-900;
   background-color: $green-500;
+  cursor: pointer;
 }
 
 .o-btn--pink {
@@ -47,4 +49,10 @@
 .o-btn--pink:hover {
   color: $white-900;
   background-color: $pink-500;
+  cursor: pointer;
 }
+
+.o-btn--beer:hover {
+  color: $green-500;
+}
+

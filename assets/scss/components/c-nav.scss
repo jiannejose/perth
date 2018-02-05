@@ -1,3 +1,9 @@
+nav {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
 /*** LOGO ***/
 
 .c-nav__logo {
@@ -69,6 +75,16 @@
   position: relative;
   background-color: $red-transparent;
   z-index: 1;
+  opacity: 0;
+  transition: opacity 500ms ease-out;
+}
+
+.c-nav__main--close .c-nav__menu {
+  display: none;
+}
+
+.c-nav__main--open .c-nav__menu {
+  opacity: 1;
 }
 
 .c-nav__menu-links {
