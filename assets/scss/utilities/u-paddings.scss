@@ -11,6 +11,16 @@
 .u-pr-20 { padding-right: 20px; }
 
 
+@include breakpoint(medium) {
+
+  .u-pt-100\@t { padding-top: 100px; }
+
+  .u-pb-100\@t { padding-bottom: 100px; }
+  .u-pb-150\@t { padding-bottom: 150px; }
+  
+
+}
+
 @include breakpoint(large) {
 
   .u-pt-40\@t { padding-top: 40px; }

@@ -1,5 +1,14 @@
+.c-section__container {
+  overflow: hidden;
+}
+
+
 .c-section__title h2 {
   color: $gray-900;
+}
+
+.c-section__image--tablet {
+  display: none;
 }
 
 .c-section__image {
@@ -8,4 +17,67 @@
   img {
     width: 100%;
   }
+}
+
+/****************
+    BREAKPOINT
+*****************/
+@include breakpoint(medium) {
+
+  .c-section__container {
+    position: relative;
+  }
+
+  .c-section {
+    width: 44%;
+  }
+
+  .c-section--left {
+    margin-left: 35px;
+  }
+
+  .c-section--right {
+    float: right;
+    margin-right: 55px;
+  }
+
+  .c-section__image {
+    width: 480px;
+    position: absolute;
+    left: -70px;
+    bottom: -40px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .c-section__image--tablet {
+    display: block;
+    position: absolute;
+    right: -40px;
+    top: 110px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+}
+
+@include breakpoint(large) {
+
+  .c-section--left {
+    margin-left: 100px;
+  }
+
+  .c-section--right {
+    margin-right: 100px;
+  }
+
+  .c-section__image {
+    width: 600px;
+    bottom: -50px;
+  }
+
 }
