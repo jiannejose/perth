@@ -57,6 +57,11 @@ nav.has-scrolled {
   }
 }
 
+.c-nav__toggle:hover,
+.c-nav__toggle--close {
+  cursor: pointer;
+}
+
 /* breakpoint */
 @include breakpoint(large) {
   .c-nav__toggle {

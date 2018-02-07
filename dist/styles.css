@@ -542,6 +542,10 @@ nav.has-scrolled .c-nav__logo {
   display: block;
   background-color: #ffffff; }
 
+.c-nav__toggle:hover,
+.c-nav__toggle--close {
+  cursor: pointer; }
+
 /* breakpoint */
 @media all and (min-width: 1024px) {
   .c-nav__toggle {
@@ -907,6 +911,9 @@ BREAKPOINT
 .c-footer__topbtn i {
   font-size: 1.25rem;
   font-weight: 900; }
+
+.c-footer__topbtn a:hover {
+  cursor: pointer; }
 
 .c-footer__topbtn a:hover i {
   color: #4eacdd;
