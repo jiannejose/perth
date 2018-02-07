@@ -7,16 +7,32 @@ nav {
 /*** LOGO ***/
 
 .c-nav__logo {
-  width: 100%;
-  height: auto;
-  position: relative;
+  width: 110px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  transition: width 500ms ease-out;
 
   img {
-    width: 110px;
-    height: auto;
-    position: absolute;
-    top: 0;
-    left: 20px;
+    width: 100%;
+  }
+}
+
+nav.has-scrolled {
+  background-color: rgba(0,0,0, 0.3);
+  height: 64px;
+
+  .c-nav__logo {
+    width: 80px;
+  }
+
+}
+
+/* breakpoint */
+
+@include breakpoint(large) {
+  .c-nav__logo img {
+    left: 100px;
   }
 }
 
@@ -36,6 +52,13 @@ nav {
   span {
     display: block;
     background-color: $white-900;
+  }
+}
+
+/* breakpoint */
+@include breakpoint(large) {
+  .c-nav__toggle {
+    right: 100px;
   }
 }
 
