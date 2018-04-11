@@ -35,28 +35,28 @@
                         <div class="c-nav__menu-links">
                             <ul>
                                 <li>
-                                    <a href="#">
+                                    <a data-scroll href="#home" onclick="closeNav()">
                                         <span class="c-nav-icon"><i class="fa fa-home"></i></span>
                                         <span class="c-nav-label">home</span>
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#">
+                                    <a data-scroll href="#about" onclick="closeNav()">
                                         <span class="c-nav-icon"><i class="fa fa-heart"></i></span>
                                         <span class="c-nav-label">about me</span>
                                     </a>
                                 </li>  
                                 
                                 <li>
-                                    <a href="#">
+                                    <a data-scroll href="#portfolio" onclick="closeNav()">
                                         <span class="c-nav-icon"><i class="fa fa-desktop"></i></span>
                                         <span class="c-nav-label">portfolio</span>
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#">
+                                    <a data-scroll href="#contact" onclick="closeNav()">
                                         <span class="c-nav-icon"><i class="fa fa-envelope"></i></span>
                                         <span class="c-nav-label">drop me a line</span>
                                     </a>
@@ -74,7 +74,7 @@
         <!-- nav end -->
 
         <!-- hero start -->
-        <section class="c-hero">
+        <section class="c-hero" id="home">
 
             <div class="c-hero__image">
                 <img src="dist/img/iphone5.png" alt="iPhone 5" />
@@ -103,7 +103,7 @@
         <!-- hero end -->
 
         <!-- section start -->
-        <section class="c-section__container [ u-pt-50 u-pt-100@t u-pb-50 u-pb-100@t ] [ u-bg-white500 ]">
+        <section class="c-section__container [ u-pt-50 u-pt-100@t u-pb-50 u-pb-100@t ] [ u-bg-white500 ]" id="about">
 
             <div class="c-section c-section--left">
 
@@ -140,7 +140,7 @@
         <!-- section end -->
 
         <!-- section start -->
-        <section class="c-section__container [ u-pt-50 u-pt-100@t u-pb-50 u-pb-150@t ]">
+        <section class="c-section__container [ u-pt-50 u-pt-100@t u-pb-50 u-pb-150@t ]" id="portfolio">
 
             <div class="c-section c-section--right">
 
@@ -178,7 +178,7 @@ You little ripper tucker also get a dog up ya greenie.
         <!-- section end -->
 
         <!-- support start -->
-        <section class="c-support__container [ u-pt-100 u-pb-100 ]">
+        <section class="c-support__container [ u-pt-100 u-pb-100 ]" id="contact">
 
             <div class="c-support__title">
                 <h2 class="o-section-title">Like what you See?</h2>
@@ -264,7 +264,10 @@ You little ripper tucker also get a dog up ya greenie.
 
         </footer>
         <!-- footer end -->
-        
+        <script src="dist/smooth-scroll.min.js"></script>
         <script src="assets/js/main.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
     </body>
 </html>

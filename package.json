@@ -5,7 +5,8 @@
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-sourcemaps": "^2.6.4"
+    "gulp-sourcemaps": "^2.6.4",
+    "smooth-scroll": "^12.1.5"
   },
   "devDependencies": {
     "gulp-rename": "^1.2.2",
