@@ -1,6 +1,9 @@
 # Perth
 
-This is a web page that I have created to showcase my skills in Frontend Development.
+This is a responsive web page that I have created to showcase my skills in Frontend Development. 
+
+Check out my output:
+https://jiannejose.github.io/perth/
 
 ## Methodologies I Used
 
