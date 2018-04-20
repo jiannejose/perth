@@ -662,7 +662,7 @@ nav.has-scrolled .c-nav__logo {
 
 .c-hero__image {
   position: absolute;
-  bottom: -40%;
+  bottom: -200px;
   right: -127px; }
 
 .c-hero__details {
